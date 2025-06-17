@@ -22,9 +22,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ifnet Digital Hub",
+  title: "Phoenix Seven Investment Group",
   description:
-    'At Ifnet, we provide digital-first solutions designed to help businesses grow, compete, and maximize profitability. We believe in "The New & Better Way", a smarter, more effective approach to branding, marketing, and digital presence.',
+    "A Bold Business Ecosystem for Growth, Innovation & Impact. We’re not just building businesses — we’re creating a powerful ecosystem where ideas turn into income, purpose meets profit, and people rise together.",
 };
 
 export default function RootLayout({
@@ -42,10 +42,15 @@ export default function RootLayout({
           rel="stylesheet"
         />
 
-        {/* <link
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet"
+        />
+
+        <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
-        /> */}
+        />
 
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -82,7 +87,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
+        {/* <Header /> */}
         {children}
 
         <Script
