@@ -875,7 +875,7 @@ section,
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding: 120px 0 60px 0;
+  padding: 20px 0 60px 0;
 }
 
 .hero .hero-bg {
@@ -889,7 +889,7 @@ section,
 }
 
 .hero img {
-  width: 13rem;
+  width: 12rem;
   height: auto;
 }
 

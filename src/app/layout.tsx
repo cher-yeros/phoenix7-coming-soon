@@ -5,10 +5,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "aos/dist/aos.css";
 
 import "@/assets/css/fontawesome.css";
-import "@/assets/css/style.css";
 import "@/assets/css/gallery.css";
+import "@/assets/css/style.css";
 
-import Header from "@/components/layout/Header";
 import Script from "next/script";
 
 const geistSans = Geist({

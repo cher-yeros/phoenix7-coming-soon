@@ -14,7 +14,13 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="hero" className="hero section dark-background">
+    <section
+      id="hero"
+      className="hero section dark-background"
+      style={{
+        background: "#011b39",
+      }}
+    >
       <img
         src="assets/images/world-dotted-map.png"
         alt=""
