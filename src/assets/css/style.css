@@ -898,6 +898,15 @@ section,
   z-index: 3;
 }
 
+.hero .cs {
+  /* display: block;
+  position: fixed;
+  bottom: 5rem;
+  font-size: 6rem;
+  z-index: -5;
+  opacity: 0.3; */
+}
+
 .hero h2 {
   margin-bottom: 20px;
   padding: 0;
@@ -915,7 +924,7 @@ section,
 .hero p {
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   text-align: center;
   color: #e2b500;
 }

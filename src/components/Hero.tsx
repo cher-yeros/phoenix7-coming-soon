@@ -30,7 +30,7 @@ export default function Hero() {
 
       <div className="container">
         <div className="row gy-4 d-flex justify-content-center">
-          <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center">
+          <div className="col-lg-8 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center">
             <img
               src="assets/images/phoenix7_logo.png"
               className="img-fluid mb-3 mb-lg-0"
@@ -46,7 +46,9 @@ export default function Hero() {
             <p data-aos="fade-up" data-aos-delay="150"></p>
 
             <div className="row gy-4" data-aos="fade-up" data-aos-delay="300">
-              <h2 data-aos="fade-up">Coming Soon !</h2>
+              <h2 className="cs" data-aos="fade-up">
+                Coming Soon !
+              </h2>
 
               <div className="contact d-flex">
                 <a href="mailto:phoenix7investmentgroup@gmail.com">
